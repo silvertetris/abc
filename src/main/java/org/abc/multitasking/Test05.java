@@ -1,4 +1,4 @@
-package org.abc;
+package org.abc.multitasking;
 
 public class Test05 {
     public static void main(String[] args) {
@@ -30,11 +30,11 @@ class DrawThread extends Thread {
     }
 
     public void run() {
-      //  synchronized (account) {
+        synchronized (account) {
             for (int i = 0; i < 10; i++) {
                 account.draw(10);
                 System.out.println(this.getName() + " after withdraw " + account.getBalance());
             }
-   //     }
+        }
     }
 }

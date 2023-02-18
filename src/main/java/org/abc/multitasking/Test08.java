@@ -1,4 +1,4 @@
-package org.abc;
+package org.abc.multitasking;
 
 public class Test08 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.abc;
+package org.abc.multitasking;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
