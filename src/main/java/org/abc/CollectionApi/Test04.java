@@ -13,7 +13,7 @@ public class Test04 {
         vector.addElement("도쿄");
         vector.addElement("뉴욕");
 
-        Enumeration<String> en=vector.elements();
+        Enumeration<String> en=vector.elements(); // Iterator <->Enumeration ArrayList<->Vector
 
         while (en.hasMoreElements()) {
             String city = en.nextElement();
