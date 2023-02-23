@@ -13,8 +13,12 @@ public class Test10 {
         for(int i=0; i<n; i++) {
             lotto= new HashSet<>();
 
-            for(int j=4; lotto.size()<=6; j++) {
-                lotto.add(number.nextInt(46));
+            for(int j=0; lotto.size()<=6; j++) {
+                int k=number.nextInt(46);
+                if(k==0) {
+                    continue;
+                }
+                lotto.add(k);
             }
 
             List<Integer> L = new ArrayList<>(lotto);
