@@ -13,7 +13,7 @@ public class Test10 {
         for(int i=0; i<n; i++) {
             lotto= new HashSet<>();
 
-            for(int j=0; lotto.size()<=6; j++) {
+            for(int j=0; lotto.size()<=5; j++) {
                 int k=number.nextInt(46);
                 if(k==0) {
                     continue;
